@@ -17,9 +17,9 @@
 </head>
 
 <body>
-    @include("partials.header")
+    @include("home")
     @yield("content")
-    @include("partials.footer")
+    @include("main")
 </body>
 
 </html>
